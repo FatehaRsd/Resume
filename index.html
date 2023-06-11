@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -11,43 +11,60 @@
     <link rel="stylesheet" href="style.css" />-->
 
     <style>
-      body {
-  background: whitesmoke;
-  color: black;
-}
-      a,h1,h2,h3 {font-family: BankGothic Lt BT;
+      html {
+      position: relative;
+      width: auto;
+      height: auto;
+      background:whitesmoke;
+      border-radius: 50px;
+      }
+
+      a,h1,h2,h3 {
+        font-family: BankGothic Lt BT;
         text-align: center;}
-      li,p {font-family: Yu Gothic;
+      li,p {
+        font-family: Yu Gothic;
         text-align: center;}
       img {
-        position: relative;
-          width: 15%;
-          float: center;
-          margin-left: 42.5%;
-          margin-right: 42.5%;
+        width: 300px;
+        border: 2px solid grey;
+        padding: 2px;
+        margin: 30px;
+        border-radius: 5%;
+        } 
+      .centerImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
         }
-        footer {
-  background: whitesmoke;
-  padding: 0 0 1px 0;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  padding-top: 1px;
-  padding-bottom: 1px;
-}
-
-.nav-menu a {
-  padding: 0 8px 10px 8px;
-  text-decoration: none;
-  display: inline-block;
-  color: black;
-  font-family: BankGothic Lt BT;
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  outline: none;
-
-}
+      footer {
+        background: whitesmoke;
+        padding: 0 0 1px 0;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        }
+      .nav-menu a {
+        padding: 0 8px 10px 8px;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        font-family: BankGothic Lt BT;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        outline: none;
+        }
+      @font-face {
+        font-family: 'BankGothic Lt BT';
+        src: url(./font/BankGothicLtBTLight.ttf);
+      }
+      @font-face {
+        font-family: 'Yu Gothic';
+        src: url(./font/yugothib.ttf);
+      }
       </style>
 
   </head>
@@ -65,10 +82,12 @@
         <a href="./project.html">Projects</a>
       </ul>
     </nav>
-  </div>
-  </header>
+
+       </div>
+    </header>
+
     <div>
-      <img src="./image/IMG_6899-whtbg.png" alt="Profile photo">
+      <img src="./image/IMG_6899-whtbg.png" class="centerImage" alt="Profile photo">
     </div>
       
     <div>
