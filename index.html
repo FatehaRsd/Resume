@@ -23,10 +23,10 @@
         font-family: BankGothic Lt BT;
         text-align: center;}
       li,p {
-        font-family: Yu Gothic;
+        font-family: Arial, Helvetica, sans-serif;
         text-align: center;}
       img {
-        width: 300px;
+        width: 200px;
         border: 2px solid grey;
         padding: 2px;
         margin: 30px;
@@ -37,15 +37,7 @@
         margin-left: auto;
         margin-right: auto;    
         }
-      footer {
-        background: whitesmoke;
-        padding: 0 0 1px 0;
-        color: black;
-        font-size: 20px;
-        text-align: center;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        }
+
       .nav-menu a {
         padding: 0 8px 10px 8px;
         text-decoration: none;
@@ -61,10 +53,65 @@
         font-family: 'BankGothic Lt BT';
         src: url(./font/BankGothicLtBTLight.ttf);
       }
-      @font-face {
-        font-family: 'Yu Gothic';
-        src: url(./font/yugothib.ttf);
+      .contactInfoMain {
+        width: auto;
+        height: 50px;
+        text-align: center;
+        margin: auto;
+
       }
+      .contactInfo {
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+        margin: 1px auto;
+      }
+      .contactInfo a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+      }
+      .contactInfo a img {
+        border: 2px solid grey;
+        border-radius: 50%;
+        width: 30px;
+        margin-top: auto;
+        margin-bottom: -15px;
+        margin-right: 0px;
+        margin-inline: 0px;
+        margin-left: 20px;
+      }
+      .contactInfo p {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+      }
+      .contactInfo p img {
+        border: 2px solid grey;
+        border-radius: 50%;
+        width: 30px;
+        margin-top: auto;
+        margin-bottom: -15px;
+        margin-right: 0px;
+        margin-inline: 0px;
+        margin-left: 20px;
+      }
+
+      footer {
+        background: whitesmoke;
+        padding: 0 0 1px 0;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-top: 500px;
+        }
+
       </style>
 
   </head>
@@ -93,10 +140,30 @@
     <div>
       <h2>Nurul Fateha binti Arsad</h2>
       <p>I am passionate about learning and growing my career with exposure in technology. I am proud of my solid track record of handling projects that had proven operation continuity of success.</p>
-      <p><a href="mailto:nurulfateha.arsad@gmail.com">Email : nurulfateha.arsad@gmail.com</a></p>
-      <p>Location : Seri Kembangan, Selangor</p>
-      <p>Phone : +6010-9404595</p>
     </div>
+
+    <div class="contactInfoMain">
+    <div class="contactInfo">
+    <a href="mailto:nurulfateha.arsad@gmail.com"> 
+      <img src="./image/email.jpg" alt="email icon"> nurulfateha.arsad@gmail.com
+    </a>
+    </div>
+
+    <div class="contactInfo">
+      <p><img src="./image/location.png" alt="location icon"> Seri Kembangan, Selangor</p>
+      </div>
+
+      <div class="contactInfo">
+        <p><img src="./image/phone.png" alt="phone icon"> +6010-9404595</p>
+        </div>
+
+        <div class="contactInfo">
+          <a href="https://www.linkedin.com/in/nurulfateharsd/" target="blank"> 
+            <img src="./image/linkedin.png" alt="linkedin icon"> Nurul Fateha Arsad
+          </a>
+          </div>
+        </div>
+
 
 
       <!--<div>    
