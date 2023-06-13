@@ -1,0 +1,133 @@
+html {
+    position: relative;
+    width: auto;
+    height: auto;
+    background:#CEE4E3;
+    border-radius: 50px;
+    }
+
+.nav-menu {
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#586F7C; 
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+
+.nav-menu a {
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: whitesmoke;
+    font-family: BankGothic Lt BT;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border-right:1px solid #bbb;
+    }
+
+a:last-child {
+    border-right: none;
+    }
+
+.nav-menu a:hover:not(.active) {
+    background-color: #607A89;
+}
+
+.active {
+    background-color: #607A89;
+}
+
+img {
+    width: 200px;
+    border: 2px solid grey;
+    margin-top: 5%;
+    padding: 2px;
+    border-radius: 5%;
+    } 
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+
+a,h1,h2,h3 {
+    font-family: BankGothic Lt BT;
+    text-align: center;
+    }
+
+li,p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+
+@font-face {
+    font-family: 'BankGothic Lt BT';
+    src: url(./font/BankGothicLtBTLight.ttf);
+    }
+
+.contactInfoMain {
+    width: auto;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    }
+
+.contactInfo {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 1px auto;
+    }
+
+.contactInfo a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    }
+
+.contactInfo a img {
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: -15px;
+    margin-right: 0px;
+    margin-inline: 0px;
+    margin-left: 20px;
+    }
+
+.contactInfo p {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+          text-align: center;
+        }
+        .contactInfo p img {
+          border: 2px solid grey;
+          border-radius: 50%;
+          width: 30px;
+          margin-top: auto;
+          margin-bottom: -15px;
+          margin-right: 0px;
+          margin-inline: 0px;
+          margin-left: 20px;
+        }
+  
+        footer {
+            background-color:#586F7C; 
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 99%;
+            color: whitesmoke;
+          }
+          
+  
+  
+  
