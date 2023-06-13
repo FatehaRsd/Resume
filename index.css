@@ -6,6 +6,7 @@ html {
     border-radius: 50px;
     }
 
+/* Navigation Bar */
 .nav-menu {
     list-style-type: none;
     overflow: hidden;
@@ -40,6 +41,7 @@ a:last-child {
     background-color: #607A89;
 }
 
+/* Home Page */
 img {
     width: 200px;
     border: 2px solid grey;
@@ -47,25 +49,11 @@ img {
     padding: 2px;
     border-radius: 5%;
     } 
+
 .centerImage {
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    }
-
-a,h1,h2,h3 {
-    font-family: BankGothic Lt BT;
-    text-align: center;
-    }
-
-li,p {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    }
-
-@font-face {
-    font-family: 'BankGothic Lt BT';
-    src: url(./font/BankGothicLtBTLight.ttf);
     }
 
 .contactInfoMain {
@@ -106,27 +94,44 @@ li,p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: black;
-          text-align: center;
-        }
-        .contactInfo p img {
-          border: 2px solid grey;
-          border-radius: 50%;
-          width: 30px;
-          margin-top: auto;
-          margin-bottom: -15px;
-          margin-right: 0px;
-          margin-inline: 0px;
-          margin-left: 20px;
-        }
+    text-align: center;
+    }
+
+.contactInfo p img {
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: -15px;
+    margin-right: 0px;
+    margin-inline: 0px;
+    margin-left: 20px;
+    }
+
+/* All page */
+a,h1,h2,h3 {
+    font-family: BankGothic Lt BT;
+    text-align: center;
+    }
+    
+li,p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+    
+@font-face {
+    font-family: 'BankGothic Lt BT';
+    src: url(./font/BankGothicLtBTLight.ttf);
+    }
   
-        footer {
-            background-color:#586F7C; 
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 99%;
-            color: whitesmoke;
-          }
+footer {
+    background-color:#586F7C; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    color: whitesmoke;
+    }
           
   
   
