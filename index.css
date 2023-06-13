@@ -120,12 +120,37 @@ img {
     margin-top: 30px;
     margin-bottom: 10px;
     }
-  ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
+
+/* Education Page */
+.eduImage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-bottom: 10px;
     }
-  
+
+/* Project Page */
+.projectImage {
+    vertical-align: middle;
+    text-align: center;
+    }
+
+.projectImage img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: inline;
+    }
+
 /* All page */
 a,h1,h2,h3 {
     font-family: BankGothic Lt BT;
@@ -140,6 +165,12 @@ li,p {
 @font-face {
     font-family: 'BankGothic Lt BT';
     src: url(./font/BankGothicLtBTLight.ttf);
+    }
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
     }
   
 footer {
