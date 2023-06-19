@@ -1,5 +1,5 @@
 # Resume
-## https://fateharsd.github.io/Resume/
+## https://fateharsd.github.io/1-Resume/
 First assignment bootcamp
 Tugasan
 1.	Anda diminta untuk menghasilkan 5 halaman ini dengan hanya menggunakan HTML.
